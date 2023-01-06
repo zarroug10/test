@@ -1,16 +1,4 @@
-// version avec nodejs
-/*
-const http = require('http')
 
-const server = http.createServer((req, res) => {
-  res.write('<h1>Un premier Bonjour </h1>')
-  res.end('<p>Bonjour Master !</p>')
-})
-
-server.listen(3000, '127.0.0.1', () => {
-  console.log('server is running...............')
-})
-*/
 
 const express = require('express')
 
